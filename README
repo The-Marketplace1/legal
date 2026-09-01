@@ -9,24 +9,17 @@ The Legal repository is the Marketplace's legal, compliance, governance, and pol
 - Marketplace Terms
 - Customer Terms
 - Professional Terms
-- Privacy Policy
-- Cookie Policy
-- Payment Terms
-- Escrow Policy
-- Refund Policy
-- Withdrawal Policy
-- Dispute Policy
-- Safety Policies
-- Communication, call, and masked-number policies
+- Privacy and Cookie Policies
+- Payment, Escrow, Refund, and Withdrawal Policies
+- Dispute and Safety Policies
+- Communication, Call, and Masked-Number Policies
 - Professional Verification Policy
-- Data Protection and Privacy requirements
-- GDPR and NDPA requirements
-- Regional compliance requirements
-- Security and incident policies
-- Intellectual Property policies
-- Admin governance
-- Contracts and legal templates
-- Legal review and policy version history
+- Data Protection and Regional Compliance
+- Security and Incident Policies
+- Intellectual Property Policies
+- Admin Governance
+- Contracts and Legal Templates
+- Legal Review and Policy Versioning
 
 # Integration
 
@@ -34,25 +27,25 @@ The Legal repository is the Marketplace's legal, compliance, governance, and pol
 - professional-app → professional terms, verification, withdrawals, service rules
 - admin-dashboard → admin governance and compliance
 - payment-service → payment, escrow, refund, withdrawal policies
-- communication-service → communication, calls, masked-number and retention policies
+- communication-service → communication, calls, masked numbers, retention
 - notification-service → consent and communication preferences
 - database → retention and data-protection requirements
 - security → security and incident requirements
 
 # Boundaries
 
-This repository contains legal and compliance documentation only.
+Legal documentation and compliance only.
 
-It does NOT contain application code, backend logic, database schemas, UI/UX, payment processing, authentication, Twilio implementation, or infrastructure configuration.
+No application code, backend logic, database schemas, UI/UX, payment processing, authentication, Twilio implementation, or infrastructure configuration.
 
-# Global Compliance
+# Compliance
 
-Support applicable requirements across countries, including GDPR, NDPA, and regional regulations.
+Support applicable laws and regulations across supported countries, including GDPR, NDPA, and regional requirements.
 
 # Change Management
 
-Legal changes require versioning, effective dates, review, approval, and change history.
+All legal changes require review, approval, versioning, effective dates, and change history.
 
 # License
 
-See `LICENSE`.
+See the repository [LICENSE](./LICENSE).
